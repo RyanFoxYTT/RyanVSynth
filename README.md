@@ -12,8 +12,11 @@ python main.py -v E:\voicebank -m song.mid -l "hVl low may neym iz ra yVn FQx" -
 Arguments:
 
 -v = voicebank folder path
+
 -m = midi file path
+
 -l = lyrics/phonemes (like: hVl low may neym iz ra yQn FQx)
+
 -o = output wav name
 
 Dependencies:
