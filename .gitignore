@@ -17,3 +17,5 @@ yoshi_rvs/
 .idea/
 *.wav
 .DS_Store
+*.mid
+*.midi
