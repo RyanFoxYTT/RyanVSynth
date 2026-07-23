@@ -23,4 +23,36 @@ Dependencies:
 
 pip install numpy soundfile colorama tqdm pyworld mido
 
+
+
+
+## ARPABET to RyanVSynth (RVSynth) Conversion Guide
+
+RVSynth uses a compact single-character system. Use this cheat sheet to convert ARPABET lyrics:
+
+**Vowels:**
+*   `AA` → `a` (f**a**ther)
+*   `AE` → `V` (c**a**t)
+*   `AX` → `Q` (**a**bout)
+*   `EH` → `e` (b**e**d)
+*   `ER` → `3` (b**ir**d)
+*   `IY` / `IH` → `i` (b**ee**t / b**i**t)
+*   `OW` → `o w` (g**o**)
+*   `UW` → `u w` (t**oo**)
+
+**Consonants (Special single-char mappings):**
+*   `CH` → `C`
+*   `DH` → `D` (**th**is)
+*   `JH` → `j`
+*   `NG` → `N` (si**ng**)
+*   `SH` → `S` (**sh**e)
+*   `TH` → `T` (**th**ink)
+*   `TS` → `c` (ca**ts**) 
+*   `ZH` → `Z` (plea**s**ure)
+*   `HH` → `h` (**h**ello)
+
+**Other sounds:**
+*   Glottal stop (`Q`) → `q`
+*   All other ARPABET consonants (`B, D, F, G, H, K, L, M, N, P, R, S, T, V, W, Y, Z`) map directly to their lowercase equivalent.
+
 License: MIT
